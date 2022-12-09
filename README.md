@@ -14,7 +14,7 @@ Sqft_living had the highest correlation with price. Waterfront: $608,976, grade_
 
 ## Business Problem
 
-Hugh Honey and Vic Vinegar want to take their real estate prowess to King County. However, as Philadelphia residents they are not familiar with the area and would like guidance on how to conquer King County and maximize their profits for their newly founded western branch.
+Hugh Honey and Vic Vinegar want to take their real estate prowess to King County. However, as Philadelphia residents, they are not familiar with the area and would like guidance on how to conquer King County and maximize their profits for their newly founded western branch.
 
 In order to maximize profits, Hugh and Vic need to sell as many houses as they can. Additionally, if they accurately provide their customers with homes that grow in value, they can build a reputation of making their customers happy in both the short and long term. This will help drive more customers to choose Honey and Vinegar Real Estate.
 
