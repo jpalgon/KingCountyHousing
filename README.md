@@ -46,25 +46,23 @@ My final step was take the predictions of my final model and compare it to the a
 
 ## Results
 
-### Price vs. sqft_living
-![Median ROI by Genre](./images/median_roi_by_genre.png)
+### Price vs. Sqft_living
+![Price vs. Sqft_living](./images/price_vs_sqft.png)
 
 Animation, mystery and sci-fi are the top performing genres from 2010-2019.
 
-### Top Genres by ROI Over Time
-![Change in ROI by Genre](./images/change_in_roi_by_genre.png)
+### Price vs. Has a View
+![Price vs. Has a View](./images/price_vs_view.png)
 
 However animation has not been trending well, while mystery and sci-fi are still performing strong at the end of the timeframe. 
 
 Horror and thriller are trending upward despite not being top 5. 
 
-### Top Directors
-![Top Directors by Genre](./images/top_directors_by_genre.png)
+### Model Results
+![Model Results](./images/model.png)
 
 David Lowery is the top performing director and writer, despite being in the fantasy genre, which is not top 5.
 
-
-If any of these graphs are hard to look at due to the web browers settings please look at our full analysis in [our Jupyter Notebook](./notebooks) or our [presentation](./Movie_Presentation.pdf).
 
 ## Conclusions
 
