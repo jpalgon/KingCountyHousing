@@ -47,19 +47,19 @@ My final step was take the predictions of my final model and compare it to the a
 ## Results
 
 ### Price vs. Sqft_living
-![Price vs. Sqft_living](/images/price_vs_sqft.png)
+![Price vs. Sqft_living](./Images/price_vs_sqft.png)
 
 Animation, mystery and sci-fi are the top performing genres from 2010-2019.
 
 ### Price vs. Has a View
-![Price vs. Has a View](/images/price_vs_view.png)
+![Price vs. Has a View](./Images/price_vs_view.png)
 
 However animation has not been trending well, while mystery and sci-fi are still performing strong at the end of the timeframe. 
 
 Horror and thriller are trending upward despite not being top 5. 
 
 ### Model Results
-![Model Results](../images/model.png)
+![Model Results](./Images/model.png)
 
 David Lowery is the top performing director and writer, despite being in the fantasy genre, which is not top 5.
 
