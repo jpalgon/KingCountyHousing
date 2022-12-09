@@ -80,7 +80,7 @@ For any additional questions, please contact:
 </ul>
 
 ## Repository Structure
-'''
+```
 │   .gitignore
 │   King_County_Presentation.pdf
 │   README.md
@@ -99,4 +99,4 @@ For any additional questions, please contact:
     │   Data Cleaning and Initial Exploration.ipynb
     │   EDA.ipynb
     │   Modeling and Results.ipynb
-'''
+```
