@@ -2,6 +2,8 @@
 
 # **Author**: Josh Palgon
 
+(./Images/vic.jpg)
+
 ## Overview
 
 Hugh Honey and Vic Vinegar have decided to expand Honey and Vinegar Real Estate into King County. I have been tasked with helping Hugh and Vic navigate the King County market and maximize profits. In order to maximize profits I am going to look at which features impact the price of a King County home the most. The data source provided is from Kaggle and contains King County housing data from May 2014 until May 2015.
