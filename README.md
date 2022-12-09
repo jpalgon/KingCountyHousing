@@ -10,7 +10,7 @@ Hugh Honey and Vic Vinegar have decided to expand Honey and Vinegar Real Estate 
 
 The two main issues for cleaning the data set was converting all the object data types into a numeric data type and imputing or removing missing data. My goal was to remove as little data as possible and carefully impute the data in the most accurate way.
 
-Sqft_living had the highest correlation with price. Waterfront: $608,976, grade_value: $99,787 and view: $68,547 were three of the highest coefficients in my baseline model. After running my model, I compared the actual price vs my predicted price. I looked at the highest values of my predicted price subtracted by the actual price to find what actual prices may be undervalued/underpriced. Waterfront, view, and the zipcodes: 98010, 98118, 98146, 98122, 98033 were the most undervalued features. My recommendation for Honey and Vinegar real estate would be to focus on houses that maximize sqft_living, have high grade_values, and have a waterfront, view, or are in the 5 undervalued zipcodes.
+Sqft_living had the highest correlation with price. Waterfront: $608,976, grade_value: $99,787 and view: $68,547 were three of the highest coefficients in my baseline model. After running my model, I compared the actual price vs my predicted price. I looked at the highest values of my predicted price subtracted by the actual price to find what actual prices may be undervalued/underpriced. Waterfront, view, and the zipcodes: 98010, 98118, 98146, 98122, 98033 were the most undervalued features. My recommendation for Honey and Vinegar real estate would be to focus on houses that maximize sqft_living, have high grade_values and view rating, have a waterfront or are in the 5 undervalued zipcodes.
 
 ## Business Problem
 
