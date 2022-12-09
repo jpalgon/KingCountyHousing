@@ -10,7 +10,7 @@ Hugh Honey and Vic Vinegar have decided to expand Honey and Vinegar Real Estate 
 
 The two main issues for cleaning the data set was converting all the object data types into a numeric data type and imputing or removing missing data. My goal was to remove as little data as possible and carefully impute the data in the most accurate way.
 
-Sqft_living had the highest correlation with price. Waterfront: $608,976, grade_value: $99,787 and view: $68,547 were three of the highest coefficients in my baseline model. After running my model, I compared the actual price vs my predicted price. I looked at the highest values of my predicted price subtracted by the actual price to find what actual prices may be undervalued/underpriced. Waterfront, view, and the zipcodes: 98010, 98118, 98146, 98122, 98033 were the most undervalued features. My recommendation for Honey and Vinegar real estate would be to focus on houses that maximize sqft_living, have high grade_values and view rating, have a waterfront or are in the 5 undervalued zipcodes.
+Sqft_living had the highest correlation with price. Waterfront: $608,976, grade_value: $99,787 and view: $68,547 were three of the highest coefficients in my baseline model. After running my model, I compared the actual price vs my predicted price. I looked at the highest values of my predicted price subtracted by the actual price to find what actual prices may be undervalued/underpriced. Waterfront, view, and the zip codes: 98010, 98118, 98146, 98122, 98033 were the most undervalued features. My recommendation for Honey and Vinegar real estate would be to focus on houses that maximize sqft_living, have high grade_values and view rating, have a waterfront or are in the 5 undervalued zip codes.
 
 ## Business Problem
 
@@ -38,13 +38,13 @@ I wanted to start my model as simple as possible so I just ran a linear regressi
 
 In my next modeling step I took the log of price and again started with just price (this time logged) using sqft_living (R2 = 0.45). While it started off lower than my first block of models after adding more important features I got an R2 = 0.77.
 
-Next, I One Hot Encoded zipcode. With just sqft_living and zipcode One Hot Encoded my R2 = 0.72. Without any log transformations I added some of the most important features to this block and got my baseline R2 = 0.80.
+Next, I One Hot Encoded zip code. With just sqft_living and zip code One Hot Encoded my R2 = 0.72. Without any log transformations I added some of the most important features to this block and got my baseline R2 = 0.80.
 
-I kept doing this same method on different combinations of standard price, transformed price, standard sqfts', transformed sqfts', One Hot Encoded zipcode and no One Hot Encoded zipcodes.
+I kept doing this same method on different combinations of standard price, transformed price, standard sqfts', transformed sqfts', One Hot Encoded zip code and no One Hot Encoded zip codes.
 
-My best and final model using logged price, transformed sqfts' and One Hot Encoded zipcode got an R2 = 0.88.
+My best and final model using logged price, transformed sqfts' and One Hot Encoded zip code got an R2 = 0.88.
 
-My final step was to take the predictions of my final model and compare it to the actual prices. I wanted to look at the area where my model projected a higher price than the actual price to see what in the market might be undervalued. I found waterfront, view, and the zipcodes: 98010, 98118, 98146, 98122, 98033 to be my most undervalued features. 
+My final step was to take the predictions of my final model and compare it to the actual prices. I wanted to look at the area where my model projected a higher price than the actual price to see what in the market might be undervalued. I found waterfront, view, and the zip codes: 98010, 98118, 98146, 98122, 98033 to be my most undervalued features. 
 
 ## Results
 
@@ -65,9 +65,9 @@ My model is able to capture 0.88 of the variance in the actual price that can be
 
 ## Conclusions
 
-My process was able to find the features with the highest correlation with price, the features that have the highest coefficients with price after running a baseline model, and the features that are undervalued when being compared to my final model. Therefore Honey and Vinegar Real Estate should focus on houses with high sqft_living, grade, view, and sqft_living_15 that is on a waterfront, and are in 98010, 98118, 98146, 98122, 98033 zipcodes. 
+My process was able to find the features with the highest correlation with price, the features that have the highest coefficients with price after running a baseline model, and the features that are undervalued when being compared to my final model. Therefore Honey and Vinegar Real Estate should focus on houses with high sqft_living, grade, view, and sqft_living_15 that is on a waterfront, and are in 98010, 98118, 98146, 98122, 98033 zip codes. 
 
-For the next steps I would like to get housing data from these houses and their prices in future years to see if my model accurately predicted what was undervalued. Additionally, I would like to explore the longitude and latitude aspects of the data to specifically plot areas within zipcodes to further hone in my recommendation.
+For the next steps I would like to get housing data from these houses and their prices in future years to see if my model accurately predicted what was undervalued. Additionally, I would like to explore the longitude and latitude aspects of the data to specifically plot areas within zip codes to further hone in my recommendation.
 
 ## For More Information
 
