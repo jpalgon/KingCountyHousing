@@ -30,7 +30,7 @@ In the end I only had to remove one outlier row where bedrooms was equal to 33. 
 
 ## Methods and Modeling
 
-My first step in understanding was to look at features that had the highest correlation with price. Sqft_living was the top feature followed by grade_value and sqft_living15 (the sqft of living for the nearest 15 neighbors). 
+My first step in understanding the data was to look at features that had the highest correlation with price. Sqft_living was the top feature followed by grade_value and sqft_living15 (the sqft of living for the nearest 15 neighbors). 
 
 My next step was to run my first linear regression model. I wanted to establish a good baseline model to pull out coefficients. Waterfront ($608,976), Grade ($99,787), View ($68,547) were among my top coefficients after running my baseline model.
 
