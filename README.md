@@ -56,7 +56,7 @@ There is a fairly linear relationship between price and sqft_living. Additionall
 ### Price vs. Has a View
 ![Price vs. Has a View](./Images/price_vs_view.png)
 
-There is a much wider distributions of price for houses with a view than without a view. Q3 is particularly higher in view than no view. Very strong positive linear or possibly exponential relationship between price and grade_value. Shows the reason it is one of the features. 
+There is a much wider distributions of price for houses with a view than without a view. Q3 is particularly higher in view than no view. Very strong positive exponential relationship between price and grade_value. Shows the reason it is one of the features. 
 
 ### Model Results
 ![Model Results](./Images/model.png)
