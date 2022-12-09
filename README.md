@@ -69,7 +69,7 @@ For the next steps I would like to get housing data from these houses and their 
 
 ## For More Information
 
-Please look at my full analysis in [my Jupyter Notebooks](./Notebooks) or my [presentation](./King_Country_Presentation.pdf).
+Please look at my full analysis in [my Jupyter Notebooks](./Notebooks) or my [presentation](./King_County_Presentation.pdf).
 
 For any additional questions, please contact:
 
