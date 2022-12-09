@@ -2,7 +2,7 @@
 
 # **Author**: Josh Palgon
 
-!(./Images/vic.jpg)
+![Price vs. Sqft_living](./Images/vic.jpg)
 
 ## Overview
 
