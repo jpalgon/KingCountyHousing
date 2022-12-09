@@ -4,7 +4,7 @@
 
 ## Overview
 
-Hugh Honey and Vic Vinegar have decided to expand Honey and Vinegar Real Estate into King County. I have been tasked with helping Hugh and Vic navagate the King County market and maximize profits. In order to maximize profits I am going to look at which features impact the price of a King County home the most. The data source provided is from Kaggle and contains King County housing data from May 2014 until May 2015.
+Hugh Honey and Vic Vinegar have decided to expand Honey and Vinegar Real Estate into King County. I have been tasked with helping Hugh and Vic navigate the King County market and maximize profits. In order to maximize profits I am going to look at which features impact the price of a King County home the most. The data source provided is from Kaggle and contains King County housing data from May 2014 until May 2015.
 
 The two main issues for cleaning the data set was converting all the object data types into a numeric data type and imputing or removing missing data. My goal was to remove as little data as possible and carefully imputing data in the most accurate way.
 
@@ -42,7 +42,7 @@ I kept doing this same method on different combinations of standard price, trans
 
 My best and final model using logged price, transformed sqfts' and One Hot Encoded zipcode got an R2 = 0.88.
 
-My final step was take the predictions of my final model and compare it to the actual prices. I wanted to look at the area where my model projected a higher price than the actual price to see what in the market might be undervalued. I found waterfront, view, and the zipcodes: 98010, 98118, 98146, 98122, 98033 to be my most undervalued features. 
+My final step was to take the predictions of my final model and compare it to the actual prices. I wanted to look at the area where my model projected a higher price than the actual price to see what in the market might be undervalued. I found waterfront, view, and the zipcodes: 98010, 98118, 98146, 98122, 98033 to be my most undervalued features. 
 
 ## Results
 
