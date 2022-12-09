@@ -61,7 +61,7 @@ There is a much wider distributions of price for houses with a view than without
 ### Model Results
 ![Model Results](./Images/model.png)
 
-My model is able to explain 0.88 of the variance in the actual price can be explained by its predicted price.
+My model is able to capture 0.88 of the variance in the actual price that can be explained by its predicted price.
 
 ## Conclusions
 
