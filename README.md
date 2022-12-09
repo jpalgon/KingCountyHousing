@@ -2,7 +2,7 @@
 
 # **Author**: Josh Palgon
 
-!(./Images/vic.jpg)
+(./Images/vic.jpg)
 
 ## Overview
 
