@@ -77,3 +77,23 @@ For any additional questions, please contact:
 
 <ul>
     <li>Josh Palgon (jopalgon@gmail.com)</li>
+</ul>
+
+│   .gitignore
+│   King_County_Presentation.pdf
+│   README.md
+│
+├───data
+│       clean_house.parquet
+│       column_names.md
+│       kc_house_data.csv
+│
+├───Images
+│   │   model.png
+│   │   price_vs_sqft.png
+│   │   price_vs_view.png
+│   │   vic.jpg
+└───Notebooks
+    │   Data Cleaning and Initial Exploration.ipynb
+    │   EDA.ipynb
+    │   Modeling and Results.ipynb
