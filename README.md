@@ -49,37 +49,27 @@ My final step was take the predictions of my final model and compare it to the a
 ### Price vs. Sqft_living
 ![Price vs. Sqft_living](./Images/price_vs_sqft.png)
 
-Animation, mystery and sci-fi are the top performing genres from 2010-2019.
+There is a fairly linear relationship between price and sqft_living. Additionally waterfront homes have higher prices for comparable sqft_living.
 
 ### Price vs. Has a View
 ![Price vs. Has a View](./Images/price_vs_view.png)
 
-However animation has not been trending well, while mystery and sci-fi are still performing strong at the end of the timeframe. 
-
-Horror and thriller are trending upward despite not being top 5. 
+There is a much wider distributions of price for houses with a view than without a view. Q3 is particularly higher in view than no view. Very strong positive linear or possibly exponential relationship between price and grade_value. Shows the reason it is one of the features. 
 
 ### Model Results
 ![Model Results](./Images/model.png)
 
-David Lowery is the top performing director and writer, despite being in the fantasy genre, which is not top 5.
-
+My model is able to explain 0.88 of the variance in the actual price can be explained by its predicted price.
 
 ## Conclusions
 
-Microsoft should invest in mystery and sci-fi movies due to their high median ROI and recent upward trend. Although animation has been doing well, it appears to be on a downward trend, so we do not recommend that Microsoft invests in this genre at the point.
+My process was able to find the features with the highest correlation with price, the features that have the highest coefficients with price after running a baseline model, and the features that are undervalued when being compared to my final model. Therefore Honey and Vinegar Real Estate should focus on houses with high sqft_living, grade, view, and sqft_living_15 that is on a waterfront, and are in 98010, 98118, 98146, 98122, 98033 zipcodes. 
 
-Horror and thriller movies should be monitored due to their recent growth, if they continue to show growth, Microsoft should consider investing in these genres.
-
-David Lowery is the highest performing director and writer, so Microsoft should consider making a fantasy movie spearheaded by David Lowery.
-
-For the future, we would like to gather more data to fill in some of the gaps in our data set. Our data has many different naming conventions that made merging difficult, and it would be prudent to look into the `FuzzyWuzzy` Python package to utilize fuzzy logic to increase title match rates. We would also like to get the most recent years of data as our data only contained entries up to 2019.
-
-Other variables we would investigate include parental guideline ratings and user ratings. One of our data sources had parental guidelines but no titles, making it impossible to merge to our overall dataset. Parental guidelines may determine overall viewership population, while user ratings could help determine the popularity of a genre and the current trend of which genres hold the most public favor.
-
+For the next steps I would like to get housing data from these houses and their prices in future years to see if my model accurately predicted what was undervalued. Additionally, I would like to explore the longitude and latitude aspects of the data to specifically plot areas within zipcodes to further hone in my recommendation.
 
 ## For More Information
 
-Please look at our full analysis in [our Jupyter Notebooks](./notebooks) or our [presentation](./Movie_Presentation.pdf).
+Please look at my full analysis in [my Jupyter Notebooks](./Notebooks) or our [presentation](./Movie_Presentation.pdf).
 
 For any additional questions, please contact:
 
